@@ -5,8 +5,10 @@
 * The results of the content will be outputted to a file named 'output.txt' in the same base directory of the main.py file.
 * The results for each aggregate are not in any particular order.
 * Each aggregate in the 'output.txt' file is displayed in the following format:
-  Title
-  Header
-  Rows in header order...
+  - Title
+  - Header
+  - Rows in header order...
 * This program completed in O(len(F) + len(L)) time, where F is flow logs, L is the lookup table, and len returns the number of rows of that table.
 * The space complexity is O(size(F) + size(L)) space, where size() returns the size of the table.
+
+Author: Morgan Higginbotham
